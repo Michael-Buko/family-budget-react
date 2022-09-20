@@ -1,0 +1,22 @@
+.item {
+    display: flex;
+    text-align: start;
+}
+
+.p {
+    display: flex;
+    width: 300px;
+    justify-content: start;
+    border: solid grey;
+}
+
+.butt_edit {
+    background-color: #016efc;
+    height: 20px;
+    width: 40px;
+}
+
+.butt_done {
+    height: 20px;
+    width: 50px;
+}

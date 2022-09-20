@@ -1,0 +1,12 @@
+.caption {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 40px;
+}

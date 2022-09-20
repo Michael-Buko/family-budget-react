@@ -1,0 +1,10 @@
+.amount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  width: 200px;
+  height: 60px;
+  font-size: 40px;
+  font-weight: bold;
+}

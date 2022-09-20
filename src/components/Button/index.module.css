@@ -1,0 +1,34 @@
+.button {
+    width: 100px;
+    height: 80px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.primary {
+    background-color: #04AA6D;
+}
+
+.secondary {
+    background-color: red;
+}
+
+.disabled {
+    background-color: grey;
+}
+
+.close {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    color: white;
+}
+
+.find {
+    width: 35px;
+    height: 35px;
+    background-color: blue;
+    color: white;
+}

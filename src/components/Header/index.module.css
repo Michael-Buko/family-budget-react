@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  background-image: url("./background02.jpg");
+  height: 420px;
+  padding: 30px 20px;
+  justify-content: space-between;
+  /*border: 1px solid black;*/
+}
+
+.up {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  /*border: 1px solid black;*/
+}
+
+.down {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  /*border: 1px solid black;*/
+}
+
+.menuButton {
+  cursor: pointer;
+}
+

@@ -1,0 +1,19 @@
+.regAndLog {
+    display: flex;
+    align-items:center;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction:column;
+    border: solid 1px #979797;
+    width: 300px;
+    padding: 20px;
+}
+
+.container {
+    background-color: #FFFFFF;
+}
+
+.darkContainer {
+    background-color: #000000;
+    color: #FFFFFF;
+}
