@@ -15,6 +15,7 @@ import {MainProvider} from "./context/MainContext";
 import {Logout} from "./pages/Logout";
 import { Transactions } from './pages/Transactions/Transactions';
 import {Index} from "./pages/Index/Index";
+import {Admin} from "./pages/Admin/Admin";
 
 function App() {
   return (
@@ -49,6 +50,7 @@ export const Router = () => {
         <Route path="/" exact={true} component={Index}/>
         <Route path="/main/:user/:year/:month" exact={true} component={Main}/>
         <Route path="/transactions/:user/:year/:month" exact={true} component={Transactions}/>
+        <Route path="/admin" exact={true} component={Admin}/>
         <Route path="/registration" exact={true} component={Registration}/>
         <Route path="/login" exact={true} component={Login}/>
         <Route path="/logout" exact={true} component={Logout}/>

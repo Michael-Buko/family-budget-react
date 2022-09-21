@@ -31,17 +31,6 @@ export const Login = () => {
       setError("");
     }
 
-    // axios.post('http://family-budget.loc/api/login', {
-    //     email: 'test@test.com',
-    //     password: 'test'
-    // })
-    //   .then(function (response) {
-    //       console.log(response);
-    //   })
-    //   .catch(function (error) {
-    //       console.log(error);
-    //   });
-
     const promise = fetch("http://family-budget.loc/api/auth/login", {
       method: "POST",
       headers: {"Content-Type": "application/json"},

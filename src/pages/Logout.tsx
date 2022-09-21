@@ -33,7 +33,6 @@ export const Logout = () => {
     });
 
   authContext.setUser(null);
-console.log(localStorage);
   useEffect(() => {
     history.push('/');
     return () => {

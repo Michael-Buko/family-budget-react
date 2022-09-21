@@ -1,0 +1,9 @@
+.input {
+  width: auto;
+  padding: 5px 0;
+}
+
+textarea, label {
+  display: block;
+  text-align: start;
+}

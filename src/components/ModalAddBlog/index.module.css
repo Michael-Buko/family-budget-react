@@ -1,0 +1,13 @@
+.container {
+  background-color: #FFFFFF;
+}
+
+.addBlog {
+  display: flex;
+  align-items:center;
+  margin: 0 5px 0 5px;
+  flex-direction:column;
+  border: solid 1px #979797;
+  width: auto;
+  padding: 20px;
+}
